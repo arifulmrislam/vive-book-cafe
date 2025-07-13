@@ -25,5 +25,4 @@ A cozy, book-themed café concept where readers, students, and remote workers ca
 
 ---
 
-## 📁 Folder Structure (Basic)
 
