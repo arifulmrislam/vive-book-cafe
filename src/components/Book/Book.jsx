@@ -17,16 +17,9 @@ const Book = ({ book }) => {
                             </button>
                         ))}
                     </div>
-                    <h2 className='card-title'>
-                        {bookName}
-                        {/* <div className='badge badge-secondary'>NEW</div> */}
-                    </h2>
-                    <h3>By : {author}</h3>
+                    <h2 className='card-title'>{bookName}</h2>
+                    <h3 className='text-left'>By : {author}</h3>
                     <hr class='border-t-2 border-dashed border-white-200 h-1 mt-2'></hr>
-                    {/* <p>
-                    A card component has a figure, a body part, and inside body there
-                    are title and actions parts
-                </p> */}
                     <div className='card-actions justify-between mt-4'>
                         <div className=''>{category}</div>
                         <div className='flex gap-3'>

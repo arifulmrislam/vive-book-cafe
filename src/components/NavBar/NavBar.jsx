@@ -1,11 +1,11 @@
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const NavBar = () => {
 
-const links = <>
-    <li><NavLink to='/'>Home</NavLink></li>
-    <li><NavLink to='/listedBooks'>Listed Books</NavLink></li>
-    <li><a>Pages to Read</a></li>
-</>
+    const links = <>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/listedBooks'>Listed Books</NavLink></li>
+        {/* <li><a>Pages to Read</a></li> */}
+    </>
 
 
     return (
@@ -36,15 +36,13 @@ const links = <>
                         {links}
                     </ul>
                 </div>
-                <a className='btn btn-ghost text-xl'>Book Vibe</a>
+                <a className='btn btn-ghost text-2xl'>vive book cafe</a>
             </div>
-            <div className='navbar-center hidden lg:flex'>
-                <ul className='menu menu-horizontal px-1'>
-                    {links}
-                </ul>
+            <div className='navbar-center hidden lg:flex font-bold'>
+                <ul className='menu menu-horizontal px-1'>{links}</ul>
             </div>
             <div className='navbar-end'>
-                <a className='btn'>Button</a>
+                <a><NavLink to='/login'><button className='btn font-bold'>Login</button></NavLink></a>
             </div>
         </div>
     );

@@ -1,28 +1,12 @@
-# 📚 Vive Book Café
+# React + Vite
 
-A cozy, book-themed café concept where readers, students, and remote workers can enjoy a peaceful environment to study, read, and relax — with the option to order coffee, snacks, and meals.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🌐 **Live Site:** [fluffy-fairy-78dc70.netlify.app](https://fluffy-fairy-78dc70.netlify.app/)
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## Expanding the ESLint configuration
 
-- 📖 Browse curated book lists
-- ☕ Discover café menu with drinks and meals
-- 📝 View and manage read & wish lists
-- 🎨 Clean, responsive UI with Tailwind CSS
-- 🔍 Search and filter by categories or tags
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend:** React
-- **Styling:** Tailwind CSS
-- **Routing:** React Router
-- **Deployment:** Netlify
-
----
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
