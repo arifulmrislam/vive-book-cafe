@@ -2,7 +2,7 @@
 
 A cozy, book-themed café concept where readers, students, and remote workers can enjoy a peaceful environment to study, read, and relax — with the option to order coffee, snacks, and meals.
 
-🌐 **Live Site:** [fluffy-fairy-78dc70.netlify.app](https://app.netlify.com/projects/tourmaline-khapse-c11ec1/overview)
+🌐 **Live Site:** [fluffy-fairy-78dc70.netlify.app](https://tourmaline-khapse-c11ec1.netlify.app/)
 
 ---
 
